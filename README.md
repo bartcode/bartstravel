@@ -1,2 +1,3 @@
-# bartstravel
-Static website for Bart's Travel Guide
+# Bart's Travel Guide.
+
+Static website for Bart's Travel Guide: https://bartstravel.nl/
