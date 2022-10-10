@@ -13,7 +13,7 @@ Als een ware filosoof stel ik dat een belangrijk deel van je leven een zoektocht
 
 Deze week heb ik zelf ook iets aan mijn lijstje non-talenten kunnen toevoegen: surfen. Mogelijk vind ik het niet zo leuk, omdat ik er niet goed in ben. Ikzelf denk echter dat mijn interesse gewoon ergens anders ligt. Een beetje jammer wel, want de stranden op Lombok zijn uitzonderlijk goed voor het leren en beoefenen van deze sport.
 
-Naast een verandering qua mindset, verandert mijn lichaam ook. In de eerste weken ben ik een paar kilo kwijtgeraakt. Waar ik thuis mezelf snel hongerig voel en een ware bodemdrift kan hebben, merk ik dat ik in Azië eet, _omdat dat zou moeten_. <span style="font-size: 1em;">Verder merk ik dat mijn libido op pandaniveau zit.</span>
+Naast een verandering qua mindset, verandert mijn lichaam ook. In de eerste weken ben ik een paar kilo kwijtgeraakt. Waar ik thuis mezelf snel hongerig voel en een ware bodemdrift kan hebben, merk ik dat ik in Azië eet, _omdat dat zou moeten_. <span style="font-size: 1em;">Verder merk ik dat mijn libido op pandaniveau zit.</span>
 
 Dat laatste weerhield me er niet van om drie dagen te gaan trekken op de Rinjani-vulkaan. Mijn voorbereiding bestond uit drie dagen op stranden liggen bij Kuta, Lombok.
 
