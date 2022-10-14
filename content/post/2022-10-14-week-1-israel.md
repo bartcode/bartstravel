@@ -4,7 +4,7 @@ author: Bart
 type: post
 date: 2022-10-14T05:00:00+00:00
 url: /2022/10/14/babys/
-image: /2022/10/babys.jpg
+image: /2022/babys.jpg
 categories:
   - Israël en Jordanië 2022
 
