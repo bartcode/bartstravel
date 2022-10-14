@@ -7,6 +7,7 @@ url: /2022/10/14/babys/
 image: /2022/10/babys.jpg
 categories:
   - Israël en Jordanië 2022
+
 ---
 Bijna alle vrienden om me heen leren sinds dit jaar hoe het is om met een baby op vakantie te gaan. Myrthe vond het belangrijk voor mij dat ik mee zou kunnen praten met hen. Daarom besloot ze aan te sluiten tijdens mijn vakantie naar Israël en Jordanië.
 
