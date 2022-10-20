@@ -9,7 +9,7 @@ categories:
   - Israël en Jordanië 2022
 
 ---
-Bijna alle vrienden om me heen leren sinds dit jaar hoe het is om met een baby op vakantie te gaan. Myrthe vond het belangrijk voor mij dat ik mee zou kunnen praten met hen. Daarom besloot ze aan te sluiten tijdens mijn vakantie naar Israël en Jordanië.
+Bijna alle vrienden om me heen leren sinds dit jaar hoe het is om met een baby op vakantie te gaan. Myrthe vond het belangrijk voor mij dat ik mee zou kunnen praten met hen. Om mij af en toe het gevoel te geven dat er een baby mee was, besloot ze aan te sluiten tijdens mijn vakantie naar Israël en Jordanië.
 
 Onvoorbereid begaven we ons verleden week in Jeruzalem in een feestperiode voor de joden: Sukkot. Praktisch vergelijkbaar met Kerstmis, maar dan langer en mensen bouwen hutten waarin ze samenkomen. Zo'n hut wordt gebouwd op straat, in de tuin, of zelfs op een balkon. Ieder restaurant en iedere winkel was dicht en op straat liepen enkel zwartgeklede mensen die internetloos en met pijpenkrullen langs het hoofd door het leven gaan.
 
