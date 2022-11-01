@@ -1,6 +1,6 @@
 baseURL = "https://bartstravel.nl/"
 languageCode = "nl-NL"
-title = "Bart's Travel Guide 🎈🐘"
+title = "Bart's Travel Guide"
 copyright = "Copyright © 2022, Bart's Travel Guide; all rights reserved."
 canonifyurls = true
 paginate = 8
