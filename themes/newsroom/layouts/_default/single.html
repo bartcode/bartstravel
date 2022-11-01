@@ -6,10 +6,11 @@
       <h1 class="post_title">{{ .Title }}</h1>
       <div class="post_body">
         <div class="post_inner">
-          {{ $path := .Params.image }}
-          {{ with resources.Get $path }}
-            {{ with .Resize "1200x jpg" }}
-              <img src="{{ .Permalink }}" alt="" class="post_thumbnail">
+          {{- with .Params.image -}}
+            {{ with resources.Get . }}
+              {{ with .Fill "1200x800 smart" }}
+                <img src="{{ .RelPermalink }}" alt="" class="post_thumbnail">
+              {{ end }}
             {{ end }}
           {{ end }}
 

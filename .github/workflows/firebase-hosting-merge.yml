@@ -16,7 +16,7 @@ jobs:
           hugo-version: latest
           extended: true
       - name: Show files
-        run: ls content/post
+        run: ls content/posts
       - name: Build
         run: hugo --minify --debug
       - uses: FirebaseExtended/action-hosting-deploy@v0

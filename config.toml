@@ -1,35 +1,122 @@
-baseURL = ""
+baseURL = "https://bartstravel.nl/"
 languageCode = "nl-NL"
 title = "Bart's Travel Guide 🎈🐘"
-theme = "newsroom"
 copyright = "Copyright © 2022, Bart's Travel Guide; all rights reserved."
 canonifyurls = true
-paginate = 50
+paginate = 8
+staticDir = ['assets']
+
+
+#-------------------------------
+# Main Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about"
+  #   weight = 2
+
+  # [[menu.main]]
+  #   identifier = "contact"
+  #   name = "Contact"
+  #   url = "/contact"
+  #   weight = 3
+
+
+[params]
+  logo = "" # You can add own logo. For example "/images/logo.png".
+  description = "Persoonlijke blog over minder triviale aspecten van het reizen."
+
+  #-------------------------------
+  # Author Settings
+  [params.author]
+    avatar = "avatar/profile.jpg"
+    name = "Bart"
+    job = "Engineer & Traveler"
+
+  [[params.social]]
+    icon = "ion-logo-instagram"
+    name = "Instagram"
+    link = "https://instagram.com/zehbart"
+
+  [[params.social]]
+    icon = "ion-logo-github"
+    name = "Github"
+    link = "https://github.com/bartcode"
+
+  # Example of adding a new link to the author section and footer:
+  # [[params.social]]
+  #   icon = "ion-logo-vimeo"
+  #   name = "Vimeo"
+  #   link = "https://vimeo.com"
+
+  # Other icons can be found at https://ionicons.com/v4/
+
+
+  #-------------------------------
+  # Featured Slider
+  [params.slider]
+    slider__image = "true" # NOTE - By default, the slider is set to display featured posts. To add featured post to the slider, add the field, featured: true in the YAML front matter block. If you do not want to use the slider, leave the slider field empty.
+
+
+  #-------------------------------
+  # Newsletter (partials/footer-widgets/widget-subscribe.html)
+  # [params.mailchimp]
+  #   mailchimp = "true" # If you do not want to use Subscribe form, leave the mailchimp field empty.
+  #   mailchimp__title = "Get Interesting News"
+  #   mailchimp__text = "Subscribe to our newsletter and we’ll send you the emails of latest posts."
+  #   mailchimp__identifier = "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  #   mailchimp__button__text = "Subscribe" # Add your button text
+
+  #-------------------------------
+  # Contact Settings
+  [params.contact]
+    email = "hazenbart@gmail.com" # Add your email for contant form
+
+    # NOTE
+    # Aditu comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+  #-------------------------------
+  # Comment Section (Disqus)
+  # [params.disqus]
+  #   disqusShortname = "anvodstudio-demo" # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+[related]
+  includeNewer = true
+  threshold = 85
+  toLower = false
+
+  [[related.indices]]
+  name = "tags"
+  weight = 80
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 40
+
+  [[related.indices]]
+  name = "date"
+  weight = 10
+
 
 [markup]
-  [markup.goldmark.renderer]
-    hardWraps = false
-    unsafe = false # change to true to enable inclusion of rawHTML and math functions
-    xhtml = false
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = false
-    tabWidth = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
-# If you want to use disqus, uncomment the line below
-# disqusShortname = "yourdiscussshortname"
 
-# ids used below are not valid. Replace with valid ones
-[params]
-  # locale = "en_US"
-  # ga_analytics = "" # google analytics ID e.g UA-116386578-1
-  # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
-  # twitter = "" # twitter handle e.g @weru
-  mainSections = ["post"]
-  # uncomment the line below will disable darkmode by default.
-  # disableDarkMode = true  # note that the UI control for toggling darkmode will remain in place. This way, the user can decide which mode they would like to use while browsing your website
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false

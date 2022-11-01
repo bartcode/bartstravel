@@ -1,0 +1,65 @@
+<!-- begin slider -->
+<div class="slider section" id="slider">
+  <div class="slider__inner">
+    <div class="main-slider">
+      <!-- Start Featured Post -->
+      {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
+      <div class="main-slider__item">
+        <div class="article">
+          <div class="article__inner">
+
+            <div class="slider-buttons">
+              <i class="main__item-prev prev ion ion-ios-arrow-back"></i>
+              <i class="main__item-next next ion ion-ios-arrow-forward"></i>
+            </div>
+
+            <a class="article__image" href="{{ .RelPermalink }}">
+              {{- with .Params.image -}}
+                {{ with resources.Get . }}
+                  {{ with .Fill "600x400 smart" }}
+                  <img loading="lazy" class="post-image" src="{{ . }}" alt="{{ .Title }}" class="post_thumbnail" />
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </a>
+            
+            <div class="article__content">
+              <div class="article__author">
+                {{- with .Site.Params.author.avatar -}}
+                  {{ with resources.Get . }}
+                    {{ with .Fill "200x200 smart" }}
+                      <a href="/about/" class="article__author-image"
+                         style="background-image: url('{{ .RelPermalink | absURL }}')"
+                         aria-label="{{$.Site.Params.author.name}}'s Picture"></a> <a href="/about/"
+                         class="article__author-link">{{$.Site.Params.author.name}}</a>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              </div>
+            
+              <h2 class="article__title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h2>
+            
+              <div class="article__meta">
+                {{ if .Params.tags }}
+                <div class="article-tags">
+                  <div class="article-tags__box">
+                    {{ range .Params.tags }}
+                      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="article__tag">{{ . }}</a>
+                    {{ end }}
+                  </div>
+                </div>
+                {{ end }}
+                <time class="article__date" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      <!-- End Featured Post -->
+    </div>
+  </div>
+</div>
+<!-- end slider -->
