@@ -28,9 +28,9 @@
                 {{- with .Site.Params.author.avatar -}}
                   {{ with resources.Get . }}
                     {{ with .Fill "200x200 smart" }}
-                      <a href="/about/" class="article__author-image"
+                      <a href="javascript:void(0)" class="article__author-image"
                          style="background-image: url('{{ .RelPermalink | absURL }}')"
-                         aria-label="{{$.Site.Params.author.name}}'s Picture"></a> <a href="/about/"
+                         aria-label="{{$.Site.Params.author.name}}'s Picture"></a> <a href="javascript:void(0)"
                          class="article__author-link">{{$.Site.Params.author.name}}</a>
                     {{ end }}
                   {{ end }}
