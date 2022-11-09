@@ -43,7 +43,7 @@ staticDir = ['assets']
   [[params.social]]
     icon = "ion-logo-instagram"
     name = "Instagram"
-    link = "https://instagram.com/zehbart"
+    link = "https://instagram.com/bhaasjes"
 
   [[params.social]]
     icon = "ion-logo-github"
