@@ -18,38 +18,3 @@ Voor de eerste nacht heb ik alvast de duurste kamer van het _DD Inn_ op een topl
 Naast de terugvlucht is er nog één andere activiteit vooraf geboekt: The Gibbon Experience. Dit is in Laos en we gaan er waarschijnlijk via Chiang Mai (en wat andere plaatsen) naartoe. The Gibbon Experience komt neer op wandelen en ziplinen door een natuurpark. Er wordt voor ons gekookt en we slapen in boomhutten op 30 à 40 meter hoogte. &#8220;Meer dan half de hoogte van De Peperbus,&#8221; zoals ze dit in Bergen op Zoom zeggen. Dit klinkt allemaal bijna decadent, maar de website van de exploitant benadrukt in hun FAQ nog even dat het openluchthotel geen luxe accommodatie biedt.
 
 Los van de terugvlucht is dit alles wat zeker is. Zoals je op de kaart ziet, land ik op Bangkok en gaan we eerst naar het noorden om de grens met Laos over te steken. Vervolgens gaan we zuidwaards om ook in Cambodja hoogtepunten te zien, zoals Siem Reap, Angkor Wat en de Killing Fields. We reizen daarna voor de tweede maal naar het noorden, maar dan via Vietnam. Uiteindelijk is het de bedoeling dat we zonder omgeroepen te worden op 16 augustus terugvliegen vanuit Hanoi (vertaling: _land tussen de rivieren_). Liefst met een zwaardere backpack dan voorheen en met een degelijke hoeveelheid wereldkennis.
-
-<!-- Blueimp gallery -->
-
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-  <div class="slides">
-  </div>
-  
-  <h3 class="title">
-  </h3>
-  
-  <a class="prev">‹</a> <a class="next">›</a> <a class="close">×</a> <a class="play-pause"></a> 
-  
-  <ol class="indicator">
-  </ol>
-  
-  <div class="modal fade">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" aria-hidden="true">&times;</button> 
-          
-          <h4 class="modal-title">
-          </h4>
-        </div>
-        
-        <div class="modal-body next">
-        </div>
-        
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default pull-left prev"> <i class="glyphicon glyphicon-chevron-left"></i> Previous </button> <button type="button" class="btn btn-primary next"> Next <i class="glyphicon glyphicon-chevron-right"></i> </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>

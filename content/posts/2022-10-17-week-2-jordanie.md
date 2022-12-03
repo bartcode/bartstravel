@@ -7,7 +7,6 @@ url: /2022/10/21/kamelentenen/
 image: /2022/kamelentenen.jpg
 categories:
   - Israël en Jordanië 2022
-
 ---
 
 Vorige week maakten we een zesurige busreis vanuit Jeruzalem om de grens met Jordanië over te steken. Naast ons zat een oudere dame die minstens eens per tien minuten werd gebeld - steeds door één van haar 36 kleinkinderen, vermoed ik. Zoals het iedere oudere betaamt, stond het beltoonvolume dusdanig hard dat de hele bus op de hoogte werd gebracht van haar inkomende gesprek. Zijzelf nam de traditionele 30 seconden om te ontdekken dat toch ècht haar telefoon het lawaai produceerde. Daarna groef ze in alle rust in haar tas, op zoek naar het apparaat. Vervolgens voerde ze een kort gesprek en tot slot hing ze op, om ditzelfde ritueel tien minuten later te herhalen.
